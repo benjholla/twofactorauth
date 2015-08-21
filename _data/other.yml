@@ -1,22 +1,213 @@
 websites:
+    - name: ActiveCollab
+      url: https://www.activecollab.com/
+      twitter: activecollab
+      img: activecollab.png
+      tfa: No
+
+    - name: Adobe ID
+      url: https://accounts.adobe.com/
+      twitter: adobecare
+      img: adobe.png
+      tfa: No
+
+    - name: Aerohive Networks
+      url: https://www.aerohive.com/
+      img: aerohive.png
+      tfa: No
+      twitter: aerohive
+
     - name: Automater
       url: http://automater.pl/en/
       img: automater.png
       tfa: Yes
-      sms: No
-      authy: No
-      goog: No
-      custom:
-        - icon: shield
-          url: "https://rublon.com/"
-        - icon: play
-          url: "http://www.youtube.com/watch?v=5OLcvjVhhuI"
+      software: Yes
+      doc: http://www.youtube.com/watch?v=5OLcvjVhhuI
 
-    - name: Delighted
-      img: delighted.png
-      url: https://delightedapp.com/
+    - name: Azendoo
+      url: https://app.azendoo.com
+      img: azendoo.png
+      tfa: No
+      twitter: Azendoo
+
+    - name: Cisco Meraki
+      url: https://meraki.cisco.com/
+      img: meraki.png
       tfa: Yes
       sms: Yes
-      goog: No
-      authy: No
-      doc: https://delightedapp.com/
+      software: Yes
+      doc: https://documentation.meraki.com/zGeneral_Administration/Managing_Dashboard_Access/Using_Google_Authenticator_for_Two-factor_Authentication_in_Dashboard
+
+    - name: Clio
+      url: https://goclio.com
+      img: clio.png
+      tfa: Yes
+      email: Yes
+      doc: https://support.goclio.com/hc/en-us/articles/203184210-Two-Factor-Authentication
+
+    - name: Clipper
+      url: https://www.clippercard.com
+      twitter: BayAreaClipper
+      img: clipper.png
+      tfa: No
+
+    - name: Cloudinary
+      url: http://cloudinary.com
+      img: cloudinary.png
+      tfa: Yes
+      software: Yes
+
+    - name: Delighted
+      url: https://delightedapp.com/
+      img: delighted.png
+      tfa: Yes
+      sms: Yes
+
+    - name: DirectAdmin
+      url: http://www.directadmin.com
+      img: directadmin.png
+      tfa: Yes
+      software: Yes
+      doc: http://directadmin.com/features.php?id=1754
+
+    - name: DoorDash
+      url: https://www.doordash.com
+      img: doordash.png
+      twitter: doordash
+      tfa: No
+
+    - name: Envato
+      url: http://envato.com
+      img: envato.png
+      twitter: envato
+      tfa: No
+
+    - name: fruux
+      url: https://fruux.com
+      img: fruux.png
+      twitter: fruux
+      tfa: No
+
+    - name: IFTTT
+      url: https://ifttt.com
+      img: ifttt.png
+      tfa: Yes
+      sms: Yes
+      software: Yes
+      doc: https://ifttt.com/settings#two-step-verification
+
+    - name: Formstack
+      url: https://www.formstack.com/
+      twitter: formstack
+      img: formstack.png
+      tfa: Yes
+      sms: Yes
+      software: Yes
+      doc: https://support.formstack.com/customer/portal/articles/1833071-two-factor-authentication
+
+    - name: Kayako
+      url: https://www.kayako.com
+      img: kayako.png
+      twitter: kayako
+      tfa: No
+      status: http://forums.kayako.com/threads/two-factor-authentication-2fa-otp.32376/#post-172053
+
+    - name: Kickstarter
+      url: https://www.kickstarter.com
+      img: kickstarter.png
+      twitter: kickstarter
+      tfa: Yes
+      sms: Yes
+      phone: Yes
+      software: Yes
+      doc: https://www.kickstarter.com/help/faq/backer+questions#faq_63004
+
+    - name: Mandrill
+      url: https://mandrill.com/
+      img: mandrill.png
+      tfa: Yes
+      sms: Yes
+      software: Yes
+      hardware: Yes
+      exceptions:
+          text: "SMS only available in the United States, the United Kingdom, Canada or some Caribbean islands."
+      doc: http://help.mandrill.com/entries/57465557
+
+    - name: Mixpanel
+      url: https://mixpanel.com/
+      img: mixpanel.png
+      tfa: Yes
+      sms: Yes
+      software: Yes
+      twitter: mixpanel
+
+    - name: Office 365
+      url: http://office.microsoft.com/en-us/business/
+      img: office365.png
+      tfa: Yes
+      software: Yes
+      sms: Yes
+      phone: Yes
+      doc: http://technet.microsoft.com/en-us/library/dn383636.aspx
+
+    - name: StartJOIN
+      url: https://www.startjoin.com/
+      img: startjoin.png
+      tfa: Yes
+      software: Yes
+
+    - name: Trello
+      url: https://trello.com
+      img: trello.png
+      tfa: Yes
+      sms: Yes
+      doc: http://help.trello.com/article/993-enabling-two-factor-authentication-for-your-trello-account
+
+    - name: US Internal Revenue Service
+      url: http://www.irs.gov/Individuals/Get-Transcript
+      twitter: IRSnews
+      img: irs.png
+      tfa: No
+
+    - name: US Social Security Administration
+      url: http://www.ssa.gov
+      img: usssa.png
+      tfa: Yes
+      sms: Yes
+      doc: https://secure.ssa.gov/RIL/HpsView.do#question3
+
+    - name: Webmin
+      url: http://www.webmin.com/
+      img: webmin.png
+      tfa: Yes
+      software: Yes
+      doc: http://doxfer.webmin.com/Webmin/Enhanced_Authentication
+
+    - name: Wunderlist
+      url: https://www.wunderlist.com
+      twitter: Wunderlist
+      img: wunderlist.png
+      tfa: No
+
+    - name: Zendesk
+      url: http://www.zendesk.com
+      twitter: Zendesk
+      img: zendesk.png
+      tfa: Yes
+      software: Yes
+      sms: Yes
+      doc: https://support.zendesk.com/hc/en-us/articles/203824246
+
+    - name: PhraseApp
+      url: https://phraseapp.com
+      twitter: PhraseApp
+      img: phraseapp.png
+      software: Yes
+      tfa: Yes
+      doc: http://blog.phraseapp.com/post/97556438392/extra-secure-user-accounts-in-phraseapp-with
+
+    - name: Pinboard
+      url: https://pinboard.in/
+      twitter: Pinboard
+      img: pinboard.png
+      tfa: No

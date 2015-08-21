@@ -12,19 +12,19 @@ body {
     background: none;
 }
 
+p {
+    margin: 1em 0;
+}
+
 .sidenav {
     position: fixed;
 }
 
 .container {
-    width: 840px;
+    max-width: 840px;
+    width: 100%;
     margin: 0 auto;
     padding-top: 40px;
-}
-
-.ui.menu.main > .menu {
-    width: 840px;
-    margin: 0 auto;
 }
 
 .main .column .banner {
@@ -49,10 +49,12 @@ td.icon {
 }
 
 td i.icon{
-  margin: 0em 0em 0em 0em;
+  margin: 0 0 0 0;
 }
 
-td span.progress {
+td span.progress,
+td span.exception,
+td a.exception {
     float: right;
 }
 
@@ -66,11 +68,11 @@ td.twitter {
 
 td img.icon {
     float: left;
-    border-radius: 500em!important;
-    padding: 4px 4px!important;
+    border-radius: 50%;
+    padding: 4px 4px;
     -webkit-box-shadow: 0 0 0 .1em rgba(0,0,0,.1) inset;
     box-shadow: 0 0 0 .1em rgba(0,0,0,.1) inset;
-    line-height: 1!important;
+    line-height: 1;
     margin-right: 8px;
     background-color: white;
     height: 16px;
@@ -100,6 +102,17 @@ td img.icon {
 .ui.table td:hover.negative,
 .ui.table th:hover.negative {
     background-color: #f2dede !important;
+}
+
+.ui.divider {
+    margin: 2em 0;
+}
+
+@media (min-width: 767px) {
+  .ui.menu.main > .menu {
+      width: 840px;
+      margin: 0 auto;
+  }
 }
 
 @media only screen and (max-width: 1199px) {
